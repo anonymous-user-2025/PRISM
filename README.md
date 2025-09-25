@@ -46,11 +46,6 @@ This dataset is intended to support a wide range of early-stage design applicati
   <img src="docs/figures/usecases.png" alt="usecases" width="80%"/>
 </p>
 
-## License
-
-- **This repo:** see [LICENSE.md](./LICENSE.md)  
-- **Third-party code:** see `third_party/licenses/`
-
 ## Citation
 
 When using or extending this code or dataset, please cite using the following:
@@ -63,6 +58,7 @@ When using or extending this code or dataset, please cite using the following:
   url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
 }
 ```
+
 
 
 
