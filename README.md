@@ -42,7 +42,9 @@ PRISM comprises 4759 procedurally generated building geometries, including 4344 
 
 This dataset is intended to support a wide range of early-stage design applications including outdoor thermal comfort, radiation studies, preliminary structural design guidance, etc. Raw fields can be used directly (climate-agnostic) or composed with climate inputs to derive application metrics. Examples include wind-speed magnitude, exceedance probabilities and comfort classes (from directional distributions and log-profile scaling), and patch-weighted irradiance or daylight proxies via SVF aggregation over the 577-patch Reinhart sky.
 
-<img src="docs/figures/usecases.png" alt="usecases" width="40%"/>
+<p align="center">
+  <img src="docs/figures/usecases.png" alt="usecases" width="80%"/>
+</p>
 
 ## License
 
@@ -59,6 +61,7 @@ This dataset is intended to support a wide range of early-stage design applicati
   url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
 }
 ```
+
 
 
 
