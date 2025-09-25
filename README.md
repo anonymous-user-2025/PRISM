@@ -53,6 +53,8 @@ This dataset is intended to support a wide range of early-stage design applicati
 
 ## Citation
 
+When using or extending this code or dataset, please cite using the following:
+
 ```
 @misc{prism2025,
   title  = {PRISM: A multi-modal dataset for learning-based building performance modeling},
@@ -61,6 +63,7 @@ This dataset is intended to support a wide range of early-stage design applicati
   url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
 }
 ```
+
 
 
 
