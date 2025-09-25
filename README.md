@@ -29,7 +29,9 @@ PRISM/
 
 ## Dataset Description
 
-PRISM comprises 4759 procedurally generated building geometries, including 4344 unique forms and 415 matched extrusions, derived from a parametric model with 19 building-level and 8 dataset-level parameters. A representative subset of 831 geometries is paired with high-resolution CFD simulations conducted across 1 to 8 cardinal wind directions per model, with an average of 7.6 directions per case, resulting in 4769 simulation instances. Mesh sizes for the full domain range from 16 to 38 million cells, with an average of 27 million, while the building meshes contain an average of 33000 cells. Sky view factor (SVF) calculations are provided for all 4759 geometries using a sky patch discretization scheme that supports downstream radiation analysis. Each geometry is available in multiple formats, including watertight surface meshes, point clouds, and structured descriptors, and is paired with corresponding velocity, pressure, and SVF-by-patch values. The dataset totals 5.3 TB in compressed form and exceeds 12.5 TB uncompressed. It is hosted on the Dataverse through the anonymized link: [PRISM Dataset]([[https://openai.com "Visit OpenAI"](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)]()).
+PRISM comprises 4759 procedurally generated building geometries, including 4344 unique forms and 415 matched extrusions, derived from a parametric model with 19 building-level and 8 dataset-level parameters. A representative subset of 831 geometries is paired with high-resolution CFD simulations conducted across 1 to 8 cardinal wind directions per model, with an average of 7.6 directions per case, resulting in 4769 simulation instances. Mesh sizes for the full domain range from 16 to 38 million cells, with an average of 27 million, while the building meshes contain an average of 33000 cells. Sky view factor (SVF) calculations are provided for all 4759 geometries using a sky patch discretization scheme that supports downstream radiation analysis. Each geometry is available in multiple formats, including watertight surface meshes, point clouds, and structured descriptors, and is paired with corresponding velocity, pressure, and SVF-by-patch values. The dataset totals 5.3 TB in compressed form and exceeds 12.5 TB uncompressed. It is hosted on the Dataverse through the anonymized link: [PRISM]([url](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea))
+
+
 
 <p align="center">
 <img src="docs/figures/wind_samples.png" alt="wind_samples" width="80%"/>
@@ -66,6 +68,7 @@ This dataset is intended to support a wide range of early-stage design applicati
   url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
 }
 ```
+
 
 
 
