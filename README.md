@@ -25,7 +25,22 @@ PRISM/
 
 - All **our code** lives under `src/`
 - **Third-party repos** are tracked as submodules in `third_party/`  
-- Requirements are split into three files to facilitate selective use: 'requirements-dataset.txt' for the processing and visualization of the dataset, 'requirements-geometrics.txt' for the calculation of 3D shape metrics, and 'requirements-baselines.txt' for the baseline surrogate models.
+- Requirements are split into three files to facilitate selective use: `requirements-dataset.txt` for the processing and visualization of the dataset, `requirements-geometrics.txt` for the calculation of 3D shape metrics, and `requirements-baselines.txt` for the baseline surrogate models.
+
+## Dataset Description
+
+PRISM comprises 4759 procedurally generated building geometries, including 4344 unique forms and 415 matched extrusions, derived from a parametric model with 19 building-level and 8 dataset-level parameters. A representative subset of 831 geometries is paired with high-resolution CFD simulations conducted across 1 to 8 cardinal wind directions per model, with an average of 7.6 directions per case, resulting in 4769 simulation instances. Mesh sizes for the full domain range from 16 to 38 million cells, with an average of 27 million, while the building meshes contain an average of 33000 cells. Sky view factor (SVF) calculations are provided for all 4759 geometries using a sky patch discretization scheme that supports downstream radiation analysis. Each geometry is available in multiple formats, including watertight surface meshes, point clouds, and structured descriptors, and is paired with corresponding velocity, pressure, and SVF-by-patch values. The dataset totals 5.3 TB in compressed form and exceeds 12.5 TB uncompressed. It is hosted on the Dataverse through the anonymized link: [PRISM Dataset]([https://openai.com "Visit OpenAI"](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)).
+
+<img src="docs/figures/wind_samples.png" alt="Workflow of PRISM" width="60%"/>
+
+<p float="left">
+  <img src="docs/figures/press_samples.png" alt="press_samples" width="60%"/>
+  <img src="docs/figures/svf_samples.png" alt="svf_samples" width="60%"/>
+</p>
+
+This dataset is intended to support a wide range of early-stage design applications including outdoor thermal comfort, radiation studies, preliminary structural design guidance, etc. Raw fields can be used directly (climate-agnostic) or composed with climate inputs to derive application metrics. Examples include wind-speed magnitude, exceedance probabilities and comfort classes (from directional distributions and log-profile scaling), and patch-weighted irradiance or daylight proxies via SVF aggregation over the 577-patch Reinhart sky.
+
+<img src="docs/figures/wind_samples.png" alt="Workflow of PRISM" width="60%"/>
 
 ![Workflow of PRISM](docs/figures/press_samples.png)
 ![Workflow of PRISM](docs/figures/svf_samples.png)
@@ -49,5 +64,6 @@ PRISM/
   url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
 }
 ```
+
 
 
