@@ -19,7 +19,6 @@ PRISM/
 ├── requirements-geometrics.txt
 ├── requirements-baselines.txt
 ├── LICENSE.md
-├── UPSTREAM.md
 └── README.md
 ```
 
@@ -58,6 +57,7 @@ When using or extending this code or dataset, please cite using the following:
   url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
 }
 ```
+
 
 
 
